@@ -17,5 +17,10 @@ pipeline {
                 echo 'job deploying'
             }
         }
+        stage('test') {
+            steps {
+                echo 'job testing'
+            }
+        }
     }
 }
